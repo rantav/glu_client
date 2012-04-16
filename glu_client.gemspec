@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
   s.version     = GluClient::VERSION
   s.authors     = ["Ran Tavory"]
   s.email       = ["rantav@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
-
+  s.homepage    = "https://github.com/rantav/glu_client"
+  s.summary     = %q{A rest API client for glu}
+  s.description = %q{Glu is a deployment automation platform, see https://github.com/linkedin/glu. This gem provides an API to it's console}
+  
   s.rubyforge_project = "glu_client"
 
   s.files         = `git ls-files`.split("\n")
